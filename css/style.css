@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    line-height: 40px;
+}
+
+.header{
+    color: #fff;
+    background-color: blueviolet;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h2{
+    text-align: left;
+    display: inline;
+}
+
+
+.header nav ul{
+    list-style: none;
+    
+}
+.header nav ul{
+    display: flex;
+    display: inline-block;   
+    list-style: none;
+}
+
+
+
+.header nav ul li{
+    display: inline-block;    
+    margin: 10 15px;
+
+}
+
+.header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header nav ul li a:hover{
+    color: #1b0e0e;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*Estilos seccion avatar*/
+
+.avatar{
+    display: inline-block;
+    max-width: 100%;
+    background-color: brown;
+    text-align: center;
+
+}   
+
+.avatar h1{
+    text-align: center;
+    color: #fff;
+}
+
+.avatar h3{
+    text-align: center;
+    color: #fff;
+}
+
+.avatar img{
+    display: inline-block;
+    padding: 80px 20px;    
+    max-width: 200px;
+    text-align: center;
+    height: auto;
+    vertical-align: middle;
+    
+}
+
+.portafolio h2{
+    text-align: center;
+    color: #fff;
+}
+
+.portafolio{
+    background-color: crimson;
+}
+
+/*Estilos galeria de imagenes*/
+.galeria{
+    padding:  40px 20px;
+    text-align: center;
+
+}
+
+.galeria img{
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0b, 0.1);
+}
+
+
+
+/*Estilos sobre mi*/ 
+.sobremi{
+    background-color: #242374;
+}
+.sobremi h1{
+    text-align: center;
+    color: #fff;
+}
+
+.sobremi{
+    color: #fff;
+}
+
+.footer{
+    background-color: #2a2a2a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    
+}
